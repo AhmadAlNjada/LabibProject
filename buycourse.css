@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    text-align: center;
+  }
+  
+  .wrapper {
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  .wrapper p{
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif; 
+  }
+  
+  header {
+    height: 60px;
+    background: #FF6D00;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+  }
+  /* The Study Source logo design */
+.logo 
+{
+    width: 30%;
+    float: left;
+    line-height: 60px;
+}
+.logo a 
+{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold;
+    color: black;
+    letter-spacing: 5px;
+    transition: 0.3s;
+}
+  
+.logo a:hover {
+    color: rgb(255, 255, 255);
+}
+  /* ------------------- */
+  /* The navigation bar desing */
+  nav {
+    float: right;
+    line-height: 60px;
+  }
+  
+nav a {
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 3px;
+font-size: 17px;
+margin: 0 15px;
+color: rgb(0, 0, 0);
+padding: 4px 0;
+    
+transition: 0.3s;
+    
+}
+
+nav a:hover 
+{
+    color: rgb(255, 255, 255);
+}
+  /* -------------- */
+  /* The picture in the middle and the words on it design */
+.banner-area 
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 20px;
+    background-image: url(images/studentprofile.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+.newhere
+{
+    width: 30%;    
+    background: #FF6D00;
+    float: left;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 7%;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.07), 
+    0 4px 8px rgba(0,0,0,0.07), 
+    0 8px 16px rgba(0,0,0,0.07),
+    0 16px 32px rgba(0,0,0,0.07), 
+    0 32px 64px rgba(0,0,0,0.07);
+}
+.newhere h1
+{
+    color: black;
+    font-size: 2em;
+    font-family:'Courier New', Courier, monospace;
+    margin: 2%;
+}
+.newhere h2
+{
+    color: #FFFFFF;
+    font-size: 1em;
+    font-family:'Courier New', Courier, monospace;
+    margin: 2%;
+}
+a
+{
+      text-decoration: none;
+}
+.words
+{
+    width: 45%;    
+    float: right;
+    text-align: center;
+    margin-top: 23%;
+    margin-right: 11%;
+    background: rgba(255, 255, 255, 0.644);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.07), 
+    0 4px 8px rgba(0,0,0,0.07), 
+    0 8px 16px rgba(0,0,0,0.07),
+    0 16px 32px rgba(0,0,0,0.07), 
+    0 32px 64px rgba(0,0,0,0.07);
+}
+.words h1
+{
+    color: #FFAB41;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 2.1em;
+    text-transform: uppercase;
+}
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 220px;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #FF6D00;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #FF6D00;}
+  
+.space{
+    overflow: auto;
+	margin: 3% 5%;
+    height: 90%;
+}
+  .column {
+	float: left;
+	width: 15%;
+	margin-bottom: 10px;
+	padding: 0 8px;
+    max-height: 20%;
+    
+  }
+
+  .card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: 5px;
+  }
+  .container::after, .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  .container{
+    border-radius: 5px;
+    max-height: 100px;
+    background-color: #f2f2f2;
+    color: #FF6D00;
+    padding: 20px;
+    overflow: auto;
+  }
+  .newherebutton
+{
+    width: 70%;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 8%;
+    background-color: #FFD181;
+}
+.newherebutton:hover
+{
+   background-color: #FFAB41;
+}
+.newherebutton:active
+{
+   background-color: #FF9201;
+}

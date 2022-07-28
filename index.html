@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Labib</title>
+  </head>
+  <body>
+    <div class="all">
+      <div class="description">
+        <h1>Labib</h1>
+        <p>
+          Connecting students with teachers to help Jordan's Tawjihi students
+          through their last year of school with teachers for all the materials
+          they'd need to study.
+        </p>
+        <a href="#">Feedbacks</a>
+      </div>
+      <!--Defined the signup box and set it to the right
+        it has 5 inputs (email, password, confirm password, user type, checkboxterms)
+    -->
+      <div class="signupbox">
+        <div class="sign_up_form">
+          <form action="studentprofile.html">
+            <input type="text" class="input_box" placeholder="Username" />
+            <input type="email" class="input_box" placeholder="Email" />
+            <input type="password" class="input_box" placeholder="Password" />
+            <input
+              type="password"
+              class="input_box"
+              placeholder="Confirm Password"
+            />
+            <input type="text" class="input_box" placeholder="Phone number" />
+            <label for="cars">You're a?</label>
+            <select name="users" id="users">
+              <option value="student">Student</option>
+              <option value="teacher">Teacher</option>
+            </select>
+            <p>
+              <span><input type="checkbox" /></span>I agree to the
+              <a href="termsofservices.html">terms of services</a>
+            </p>
+            <button type="submit" class="signup_button">Create Account</button>
+            <hr />
+            <p>Already have an account? <a href="login.html">Login</a></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
